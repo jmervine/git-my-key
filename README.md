@@ -45,7 +45,7 @@ COMMANDS:
 
 GLOBAL OPTIONS:
    --username, -u 	target user's github username
-   --output, -o 	public key output file, default: {username}.pub
+   --output, -o 	public key output file
    --append, -a		append key to output file
    --help, -h		show help
    --version, -v	print the version

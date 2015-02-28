@@ -30,7 +30,7 @@ func main() {
 		},
 		cli.StringFlag{
 			Name:  "output, o",
-			Usage: "public key output file, default: {username}.pub",
+			Usage: "public key output file",
 		},
 		cli.BoolFlag{
 			Name:  "append,a",
