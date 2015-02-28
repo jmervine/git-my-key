@@ -4,6 +4,8 @@ Simple util to fetch a users public key from github.com's API.
 
 ### Install
 
+#### Via `go get`
+
 ```
 go get -u github.com/jmervine/git-my-key
 ```
@@ -13,6 +15,15 @@ go get -u github.com/jmervine/git-my-key
 > Something like:
 >
 > `$ test "$GOBIN" || (mkdir ~/.gobin && export GOBIN=~/.gobin)`
+
+#### Download
+
+Currently I only have the `linux/x86_64` binaries ready.
+
+```
+$ curl -sS -O http://static.mervine.net/go/linux/x86_64/git-my-key && chmod 755 git-my-key
+$ ./git-my-hey help
+```
 
 ### Use
 
