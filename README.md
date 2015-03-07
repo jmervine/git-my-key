@@ -7,7 +7,7 @@ Simple util to fetch a users public key from github.com's API.
 #### Via `go get`
 
 ```
-go get -u github.com/jmervine/git-my-key
+go get -u github.com/jmervine/git-my-key/v1
 ```
 
 > Note: ensure `GOBIN` environment variable is set.
